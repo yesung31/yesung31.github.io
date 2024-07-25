@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-# subtitle: 
+# subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><a href='/assets/pdf/cv_hwang.pdf'>Curriculum Vitae</a></p>
+    <a href='/assets/pdf/cv_hwang.pdf'>Curriculum Vitae</a>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
