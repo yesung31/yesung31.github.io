@@ -177,6 +177,7 @@ GEM
     nokogiri (1.16.6-x86_64-linux)
       racc (~> 1.4)
     observer (0.1.2)
+    paginate (4.0.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.0)
@@ -239,6 +240,7 @@ DEPENDENCIES
   jemoji
   mini_racer
   observer (~> 0.1.2)
+  paginate (~> 4.0)
   unicode_utils
   webrick
 

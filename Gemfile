@@ -29,3 +29,5 @@ group :other_plugins do
 end
 
 gem "observer", "~> 0.1.2"
+
+gem "paginate", "~> 4.0"
