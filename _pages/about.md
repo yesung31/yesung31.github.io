@@ -16,6 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a MSc Student in Artificial Intelligence & Engineering Systems at Eindhoven University of Technology (TU/e). I completed my Bachelor of Science in Electrical & Electronic Engineering and minor in Physics at Yonsei University. Previously, I interned at <a href='https://visualai.kaist.ac.kr'>KAIST Visual AI Group</a> and <a href='https://www.kakaomobility.com'>Kakao Mobility</a>.
+I am a MSc Student in Artificial Intelligence & Engineering Systems at Eindhoven University of Technology (TU/e). I completed my Bachelor of Science in Electrical & Electronic Engineering and minor in Physics at Yonsei University. Previously, I interned at [KAIST Visual AI Group](https://visualai.kaist.ac.kr) and [Kakao Mobility](https://www.kakaomobility.com).
 
 Outside academia, I am passionate about electric guitars, basses, and effect pedals, often researching and experimenting with these instruments. I am also an aspiring game developer.
