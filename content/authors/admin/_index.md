@@ -64,7 +64,7 @@ education:
   - area: MSc in Artificial Intelligence and Engineering Systems
     institution: Eindhoven University of Technology
     date_start: 2024-09-01
-    date_end: Now
+    date_end: 2026-08-31
     summary: |
       GPA: 3.8/4.0
 
