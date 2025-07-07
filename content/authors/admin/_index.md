@@ -184,4 +184,5 @@ languages:
 ## About Me
 
 I am a MSc Student in Artificial Intelligence & Engineering Systems at Eindhoven University of Technology (TU/e). I completed my Bachelor of Science in Electrical & Electronic Engineering and minor in Physics at Yonsei University. Previously, I interned at KAIST Visual AI Group and Kakao Mobility.
+
 My research focuses on building AI systems that generalize beyond their training data by learning structured and abstract representations. Unlike models that rely on surface-level correlations, I’m interested in approaches that capture underlying data-generating processes, such as causal relationships, compositional abstractions, and symbolic components to support robust, transferable, and explainable reasoning. Ultimately, my goal is to contribute toward AI systems capable of human-like reasoning: adaptable to new contexts, and capable of abstract inference.
