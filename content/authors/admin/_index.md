@@ -65,13 +65,13 @@ education:
     institution: Eindhoven University of Technology
     date_start: 2024-09-01
     date_end: Now
-    # summary: |
-    #   GPA: 3.8/4.0
+    summary: |
+      GPA: 3.8/4.0
 
-    #   Courses included:
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: BSc in Electrical and Electronic Engineering, minor in Physics
     institution: Yonsei University
     date_start: 2015-03-01
