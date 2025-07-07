@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Master Student
+role: Master Student in AI
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -61,17 +61,17 @@ education:
   #   button:
   #     text: 'Read Thesis'
   #     url: 'https://example.com'
-  - area: MSc in Artificial Intelligence and Engineering Systems
-    institution: Eindhoven University of Technology
-    date_start: 2024-09-01
-    date_end: 2026-08-31
-    summary: |
-      GPA: 3.8/4.0
+  # - area: MSc in Artificial Intelligence and Engineering Systems
+  #   institution: Eindhoven University of Technology
+  #   date_start: 2024-09-01
+  #   date_end: 2026-08-31
+  #   summary: |
+  #     GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: BSc in Electrical and Electronic Engineering, minor in Physics
     institution: Yonsei University
     date_start: 2015-03-01
@@ -79,10 +79,10 @@ education:
     summary: |
       GPA: 4.06/4.30
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      # Courses included:
+      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
 # work:
 #   - position: Director of Cloud Infrastructure
 #     company_name: GenCoin
