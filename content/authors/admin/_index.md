@@ -1,17 +1,17 @@
 ---
 # Display name
-title: Yesung Hwang
+title: 吳健雄
 
-# # Name pronunciation (optional)
-# name_pronunciation: Chien Shiung Wu
+# Name pronunciation (optional)
+name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Yesung
-last_name: Hwang
+first_name: Shiung Wu
+last_name: Chien
 
-# # Status emoji
-# status:
-#   icon: 
+# Status emoji
+status:
+  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,69 +20,69 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Master Student
+role: Chief Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Eindhoven University of Technology
-    url: https://www.tue.nl/en/
+  - name: OpenAI
+    url: https://openai.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:yesung.hw@gmail.com'
+    url: 'mailto:your-email@example.com'
     label: E-mail Me
-  # - icon: brands/x
-  #   url: https://twitter.com/GetResearchDev
-  # - icon: brands/instagram
-  #   url: https://www.instagram.com/
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
+  - icon: brands/instagram
+    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/yesung31
+    url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/yesung-hwang-a4b4a0223/
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/
-  # - icon: academicons/orcid
-  #   url: https://orcid.org/
+    url: https://www.linkedin.com/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
+  - icon: academicons/orcid
+    url: https://orcid.org/
 
 interests:
-  - Out-of-Distribution Generalization
-  - Causal Representation Learning
-  - Unsupervised Learning
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
 
 education:
-  # - area: PhD Artificial Intelligence
-  #   institution: Stanford University
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
-  #   summary: |
-  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-  #   button:
-  #     text: 'Read Thesis'
-  #     url: 'https://example.com'
-  - area: MSc in Artificial Intelligence and Engineering Systems
-    institution: Eindhoven University of Technology
-    date_start: 2024-09-01
-    date_end: Now
-    # summary: |
-    #   GPA: 3.8/4.0
-
-    #   Courses included:
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc in Electrical and Electronic Engineering, minor in Physics
-    institution: Yonsei University
-    date_start: 2015-03-01
-    date_end: 2023-08-25
+  - area: PhD Artificial Intelligence
+    institution: Stanford University
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
-      GPA: 4.06/4.30
+      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com'
+  - area: MEng Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.8/4.0
+
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BSc Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.4/4.0
       
-      # Courses included:
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -143,10 +143,10 @@ skills:
 
 languages:
   - name: English
-    percent: 90
-  - name: Korean
     percent: 100
-  - name: Dutch
+  - name: Chinese
+    percent: 75
+  - name: Portuguese
     percent: 25
 
 # Awards.
@@ -183,5 +183,4 @@ awards:
 
 ## About Me
 
-I am a MSc Student in Artificial Intelligence & Engineering Systems at Eindhoven University of Technology (TU/e). I completed my Bachelor of Science in Electrical & Electronic Engineering and minor in Physics at Yonsei University. Previously, I interned at KAIST Visual AI Group and Kakao Mobility.
-My research focuses on building AI systems that generalize beyond their training data by learning structured and abstract representations. Unlike models that rely on surface-level correlations, I’m interested in approaches that capture underlying data-generating processes, such as causal relationships, compositional abstractions, and symbolic components to support robust, transferable, and explainable reasoning. Ultimately, my goal is to contribute toward AI systems capable of human-like reasoning: adaptable to new contexts, and capable of abstract inference.
+Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
