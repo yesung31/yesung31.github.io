@@ -37,34 +37,38 @@ sections:
       text: |-
         On top of my research interests, I am eager to see how the following questions will be answered.
 
-        ⸻
+        ---
 
-        🧠 *Consciousness*
+        🧠 **Consciousness**
 
-        *Core Question*: Why are we conscious?
-          •	There’s no clear need for consciousness for the brain to function physically. So why does subjective experience arise at all?
-          •	How can we measure consciousness, if at all?
-          •	How do we know other people are conscious and not just behaving as if they are? (The problem of other minds)
-          •	Is our sense of continuous consciousness real, or just a cognitive illusion based on memory and narrative?
+        Core Question: Why are we conscious?
 
-        ⸻
+        - There’s no clear need for consciousness for the brain to function physically. So why does subjective experience arise at all?
+        - How can we measure consciousness, if at all?
+        - How do we know other people are conscious and not just behaving as if they are? (The problem of other minds)
+        - Is our sense of continuous consciousness real, or just a cognitive illusion based on memory and narrative?
 
-        ⚛️ *Physics*
+        ---
 
-        *Core Question*: What is the fundamental theory of everything?
-          •	Will the ultimate theory be a single unifying framework, or a collection of effective theories that work in different domains?
-          •	Does causality emerge from deeper laws, or is it a built-in feature of the universe?
-          •	Is time an illusion, just another dimension rather than a flowing entity?
+        ⚛️ **Physics**
 
-        ⸻
+        Core Question: What is the fundamental theory of everything?
 
-        🤖 *Intelligence*
+        - Will the ultimate theory be a single unifying framework, or a collection of effective theories that work in different domains?
+        - Does causality emerge from deeper laws, or is it a built-in feature of the universe?
+        - Is time an illusion, just another dimension rather than a flowing entity?
 
-        *Core Question*: What is intelligence?
-          •	What principles or architectures are required to build intelligence?
-          •	How can we define intelligence rigorously?
-          •	Can we create superhuman intelligence? If so, what would that mean for the uniqueness of human minds, and the possibility of other intelligent beings in the universe?
-        ⸻
+        ---
+
+        🤖 **Intelligence**
+
+        Core Question: What is intelligence?
+
+        - What principles or architectures are required to build intelligence?
+        - How can we define intelligence rigorously?
+        - Can we create superhuman intelligence? If so, what would that mean for the uniqueness of human minds, and the possibility of other intelligent beings in the universe?
+
+        ---
     design:
       columns: "1"
   # - block: collection
