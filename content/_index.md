@@ -30,14 +30,43 @@ sections:
           size: cover
           position: center
           parallax: false
-  # - block: markdown
-  #   content:
-  #     title: '📚 About Me'
-  #     subtitle: ''
-  #     text: |-
-  #       Maybe later also talk about my hobbies and fundamental questions about this universe (consciousness, physics, intelligence)
-  #   design:
-  #     columns: '1'
+  - block: markdown
+    content:
+      title: "📚 My Fundamental Questions"
+      subtitle: ""
+      text: |-
+        On top of my research interests, I am eager to see how the following questions will be answered.
+
+        ⸻
+
+        🧠 *Consciousness*
+
+        *Core Question*: Why are we conscious?
+          •	There’s no clear need for consciousness for the brain to function physically. So why does subjective experience arise at all?
+          •	How can we measure consciousness, if at all?
+          •	How do we know other people are conscious and not just behaving as if they are? (The problem of other minds)
+          •	Is our sense of continuous consciousness real, or just a cognitive illusion based on memory and narrative?
+
+        ⸻
+
+        ⚛️ *Physics*
+
+        *Core Question*: What is the fundamental theory of everything?
+          •	Will the ultimate theory be a single unifying framework, or a collection of effective theories that work in different domains?
+          •	Does causality emerge from deeper laws, or is it a built-in feature of the universe?
+          •	Is time an illusion, just another dimension rather than a flowing entity?
+
+        ⸻
+
+        🤖 *Intelligence*
+
+        *Core Question*: What is intelligence?
+          •	What principles or architectures are required to build intelligence?
+          •	How can we define intelligence rigorously?
+          •	Can we create superhuman intelligence? If so, what would that mean for the uniqueness of human minds, and the possibility of other intelligent beings in the universe?
+        ⸻
+    design:
+      columns: "1"
   # - block: collection
   #   id: papers
   #   content:
@@ -108,7 +137,7 @@ sections:
   #       <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
 
   #       Easily build anything with blocks - no-code required!
-        
+
   #       From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
   #     button:
   #       text: Get Started
