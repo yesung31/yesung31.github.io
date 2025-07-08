@@ -30,7 +30,7 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
+  - icon: envelope
     url: 'mailto:yesung.hw@gmail.com'
     label: E-mail Me
   # - icon: brands/x
@@ -61,10 +61,10 @@ education:
   #   button:
   #     text: 'Read Thesis'
   #     url: 'https://example.com'
-  # - area: MSc in Artificial Intelligence and Engineering Systems
-  #   institution: Eindhoven University of Technology
-  #   date_start: 2024-09-01
-  #   date_end: 2026-08-31
+  - area: MSc in Artificial Intelligence and Engineering Systems
+    institution: Eindhoven University of Technology
+    date_start: 2024-09-01
+    date_end: ''
   #   summary: |
   #     GPA: 3.8/4.0
 
@@ -83,63 +83,69 @@ education:
       # - lorem ipsum dolor sit amet, consectetur adipiscing elit
       # - lorem ipsum dolor sit amet, consectetur adipiscing elit
       # - lorem ipsum dolor sit amet, consectetur adipiscing elit
-# work:
-#   - position: Director of Cloud Infrastructure
-#     company_name: GenCoin
-#     company_url: ''
-#     company_logo: ''
-#     date_start: 2021-01-01
-#     date_end: ''
-#     summary: |2-
-#       Responsibilities include:
-#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - position: Backend Software Engineer
-#     company_name: X
-#     company_url: ''
-#     company_logo: ''
-#     date_start: 2016-01-01
-#     date_end: 2020-12-31
-#     summary: |
-#       Responsibilities include:
-#       - Migrated infrastructure to a new data center
-#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+work:
+  - position: Undergrad Intern
+    company_name: Visual AI Group @ KAIST
+    company_url: 'https://visualai.kaist.ac.kr'
+    company_logo: ''
+    date_start: 2021-12-26
+    date_end: 2022-12-31
+    # summary: |2-
+    #   Responsibilities include:
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Research Intern
+    company_name: Kakao Mobility
+    company_url: 'https://www.kakaomobility.com'
+    company_logo: ''
+    date_start: 2020-07-01
+    date_end: 2021-08-31
+    # summary: |
+    #   Responsibilities include:
+    #   - Migrated infrastructure to a new data center
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Research Intern
+    company_name: Stryx
+    company_url: ''
+    company_logo: ''
+    date_start: 2020-01-02
+    date_end: 2021-02-28
 
-# # Skills
-# # Add your own SVG icons to `assets/media/icons/`
-# skills:
-#   - name: Technical Skills
-#     items:
-#       - name: Python
-#         description: ''
-#         percent: 80
-#         icon: code-bracket
-#       - name: Data Science
-#         description: ''
-#         percent: 100
-#         icon: chart-bar
-#       - name: SQL
-#         description: ''
-#         percent: 40
-#         icon: circle-stack
-#   - name: Hobbies
-#     color: '#eeac02'
-#     color_border: '#f0bf23'
-#     items:
-#       - name: Hiking
-#         description: ''
-#         percent: 60
-#         icon: person-simple-walk
-#       - name: Cats
-#         description: ''
-#         percent: 100
-#         icon: cat
-#       - name: Photography
-#         description: ''
-#         percent: 80
-#         icon: camera
+# Skills
+# Add your own SVG icons to `assets/media/icons/`
+skills:
+  - name: Technical Skills
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: devicon/python
+      - name: ROS
+        description: ''
+        percent: 70
+        icon: devicon/ros
+      - name: Unity
+        description: ''
+        percent: 40
+        icon: devicon/unity
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Playing Guitar/Bass
+        description: ''
+        percent: 70
+        icon: musical-note
+      - name: Traveling
+        description: ''
+        percent: 80
+        icon: person-simple-walk
+      - name: Designing Effect Pedals
+        description: ''
+        percent: 70
+        icon: cpu-chip
 
 languages:
   - name: English
