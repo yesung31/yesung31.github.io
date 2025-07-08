@@ -11,7 +11,7 @@ design:
 sections:
   - block: collection
     content:
-      title: Participated Projects
+      title: Projects Participated
       text: Here are the projects I have workend on outside of research.
       filters:
         folders:
