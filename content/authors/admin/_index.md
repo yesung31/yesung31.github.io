@@ -170,7 +170,7 @@ awards:
     url: https://www.yonsei.ac.kr
     date: '2015-03-01'
     awarder: Yonsei University
-    icon: academic-cap
+    icon: hero/academic-cap
     summary: |
       Merit-based Full Scholarship for Bachelor Program
   # - title: Blockchain Fundamentals
