@@ -11,7 +11,7 @@ last_name: Hwang
 
 # # Status emoji
 # status:
-#   icon: 
+#   icon:
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Master Student in AI
+role: Master's Student in AI/ES @ TU/e
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: envelope
-    url: 'mailto:yesung.hw@gmail.com'
+    url: "mailto:yesung.hw@gmail.com"
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
@@ -64,7 +64,7 @@ education:
   - area: MSc in Artificial Intelligence and Engineering Systems
     institution: Eindhoven University of Technology
     date_start: 2024-09-01
-    date_end: ''
+    date_end: ""
   #   summary: |
   #     GPA: 3.8/4.0
 
@@ -78,7 +78,7 @@ education:
     date_end: 2023-08-25
     summary: |
       GPA: 4.06/4.30
-      
+
   #     Courses included:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -86,8 +86,8 @@ education:
 work:
   - position: Undergrad Intern
     company_name: Visual AI Group @ KAIST
-    company_url: 'https://visualai.kaist.ac.kr'
-    company_logo: ''
+    company_url: "https://visualai.kaist.ac.kr"
+    company_logo: ""
     date_start: 2021-12-26
     date_end: 2022-12-31
     # summary: |2-
@@ -97,8 +97,8 @@ work:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Research Intern
     company_name: Kakao Mobility
-    company_url: 'https://www.kakaomobility.com'
-    company_logo: ''
+    company_url: "https://www.kakaomobility.com"
+    company_logo: ""
     date_start: 2020-07-01
     date_end: 2021-08-31
     # summary: |
@@ -108,14 +108,14 @@ work:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Research Intern
     company_name: Stryx
-    company_url: ''
-    company_logo: ''
+    company_url: ""
+    company_logo: ""
     date_start: 2020-01-02
     date_end: 2021-02-28
   - position: Military Service
     company_name: Republic of Korea Army
-    company_url: ''
-    company_logo: ''
+    company_url: ""
+    company_logo: ""
     date_start: 2018-03-12
     date_end: 2019-11-10
 
@@ -125,31 +125,31 @@ skills:
   - name: Technical Skills
     items:
       - name: Python
-        description: ''
+        description: ""
         percent: 80
         icon: devicon/python
       - name: ROS
-        description: ''
+        description: ""
         percent: 70
         icon: devicon/ros
       - name: Unity
-        description: ''
+        description: ""
         percent: 40
         icon: devicon/unity
   - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+    color: "#eeac02"
+    color_border: "#f0bf23"
     items:
       - name: Playing Guitar/Bass
-        description: ''
+        description: ""
         percent: 70
         icon: musical-note
       - name: Traveling
-        description: ''
+        description: ""
         percent: 80
         icon: person-simple-walk
       - name: Designing Effect Pedals
-        description: ''
+        description: ""
         percent: 70
         icon: cpu-chip
 
@@ -168,7 +168,7 @@ languages:
 awards:
   - title: Yonsei Honors Program
     url: https://www.yonsei.ac.kr
-    date: '2015-03-01'
+    date: "2015-03-01"
     awarder: Yonsei University
     # icon: hero/academic-cap
     summary: |
@@ -195,6 +195,6 @@ awards:
 
 ## About Me
 
-I am a MSc Student in Artificial Intelligence & Engineering Systems at Eindhoven University of Technology (TU/e). I completed my Bachelor of Science in Electrical & Electronic Engineering and minor in Physics at Yonsei University. Previously, I interned at KAIST Visual AI Group and Kakao Mobility.
+I am a Master's Student in Artificial Intelligence & Engineering Systems at Eindhoven University of Technology (TU/e). I completed my Bachelor of Science in Electrical & Electronic Engineering and minor in Physics at Yonsei University. Previously, I interned at [KAIST Visual AI Group](https://visualai.kaist.ac.kr) and [Kakao Mobility](https://www.kakaomobility.com).
 
 My research focuses on building AI systems that generalize beyond their training data by learning structured and abstract representations. Unlike models that rely on surface-level correlations, I’m interested in approaches that capture underlying data-generating processes, such as causal relationships, compositional abstractions, and symbolic components to support robust, transferable, and explainable reasoning. Ultimately, my goal is to contribute toward AI systems capable of human-like reasoning: adaptable to new contexts, and capable of abstract inference.
