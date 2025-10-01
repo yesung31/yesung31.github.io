@@ -14,7 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    description: 'Personal Webpage of Yesung Hwang.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -23,24 +23,24 @@ marketing:
     fathom: ''
     pirsch: ''
   verification:
-    google: ''
+    google: 'google9430f8a04d37873a'
     baidu: ''
 
 # Site header
 header:
   navbar:
     enable: true
-    block: 'navbar'
+    blox: "navbar"
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'Your Name'
+      text: "Yesung Hwang"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Yesung Hwang. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

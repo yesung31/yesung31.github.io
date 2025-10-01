@@ -1,20 +1,17 @@
 ---
 # Display name
-title: Alex Johnson
+title: Yesung Hwang
 
-# Name pronunciation (optional)
-name_pronunciation: ''
+# # Name pronunciation (optional)
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Yesung
+last_name: Hwang
 
-# Pronouns (optional)
-pronouns: he/him
-
-# Status emoji
-status:
-  icon: 🚀
+# # Status emoji
+# status:
+#   icon:
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,147 +20,181 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Master's Student in AI/ES
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Eindhoven University of Technology
+    url: https://www.tue.nl/en/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+  - icon: envelope
+    url: "mailto:yesung.hw@gmail.com"
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+  # - icon: brands/x
+  #   url: https://twitter.com/GetResearchDev
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/yesung31
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/yesung-hwang-a4b4a0223/
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Out-of-Distribution Generalization
+  - Causal Representation Learning
+  - Unsupervised Learning
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
-    summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
+  # - area: PhD Artificial Intelligence
+  #   institution: Stanford University
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  #   button:
+  #     text: 'Read Thesis'
+  #     url: 'https://example.com'
+  - area: MSc in Artificial Intelligence and Engineering Systems
+    institution: Eindhoven University of Technology
+    date_start: 2024-09-01
+    date_end: ""
+  #   summary: |
+  #     GPA: 3.8/4.0
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BSc in Electrical and Electronic Engineering, minor in Physics
+    institution: Yonsei University
+    date_start: 2015-03-01
+    date_end: 2023-08-25
     summary: |
-      GPA: 3.9/4.0
+      GPA: 4.06/4.30
 
-      Minored in Mathematics. President of AI Club.
-
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    company_logo: ''
-    date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+  - position: Undergrad Intern
+    company_name: Visual AI Group @ KAIST
+    company_url: "https://visualai.kaist.ac.kr"
+    company_logo: ""
+    date_start: 2021-12-26
+    date_end: 2022-12-31
+    # summary: |2-
+    #   Responsibilities include:
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Research Intern
+    company_name: Kakao Mobility
+    company_url: "https://www.kakaomobility.com"
+    company_logo: ""
+    date_start: 2020-07-01
+    date_end: 2021-08-31
+    # summary: |
+    #   Responsibilities include:
+    #   - Migrated infrastructure to a new data center
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Research Intern
+    company_name: Stryx
+    company_url: ""
+    company_logo: ""
+    date_start: 2020-01-02
+    date_end: 2021-02-28
+  - position: Military Service
+    company_name: Republic of Korea Army
+    company_url: ""
+    company_logo: ""
+    date_start: 2018-03-12
+    date_end: 2019-11-10
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
+      - name: Python
+        description: ""
+        percent: 80
+        icon: devicon/python
+      - name: ROS
+        description: ""
+        percent: 70
+        icon: devicon/ros
+      - name: Unity
+        description: ""
+        percent: 40
+        icon: devicon/unity
   - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+    color: "#eeac02"
+    color_border: "#f0bf23"
     items:
-      - name: Hiking in the Rockies
-        description: ''
+      - name: Playing Guitar/Bass
+        description: ""
+        percent: 70
+        icon: musical-note
+      - name: Traveling
+        description: ""
         percent: 80
         icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
+      - name: Designing Effect Pedals
+        description: ""
         percent: 70
-        icon: book-open
+        icon: cpu-chip
 
 languages:
   - name: English
+    percent: 90
+  - name: Korean
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Dutch
+    percent: 10
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
+  - title: Yonsei Honors Program
+    url: https://www.yonsei.ac.kr
+    date: "2015-03-01"
+    awarder: Yonsei University
+    # icon: hero/academic-cap
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Merit-based Full Scholarship for Bachelor Program
+  # - title: Blockchain Fundamentals
+  #   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+  #   date: '2023-07-01'
+  #   awarder: edX
+  #   icon: edx
+  #   summary: |
+  #     Learned:
+  #     - Synthesize your own blockchain solutions
+  #     - Gain an in-depth understanding of the specific mechanics of Bitcoin
+  #     - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+  # - title: 'Object-Oriented Programming in R'
+  #   url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+  #   certificate_url: https://www.datacamp.com
+  #   date: '2023-01-21'
+  #   awarder: datacamp
+  #   icon: datacamp
+  #   summary: |
+  #     Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+## About Me
+
+I am a Master's Student in Artificial Intelligence & Engineering Systems at Eindhoven University of Technology (TU/e). I completed my Bachelor of Science in Electrical & Electronic Engineering and minor in Physics at Yonsei University. Previously, I interned at [KAIST Visual AI Group](https://visualai.kaist.ac.kr) and [Kakao Mobility](https://www.kakaomobility.com).
+
+My research focuses on building AI systems that generalize beyond their training data by learning structured and abstract representations. Unlike models that rely on surface-level correlations, I’m interested in approaches that capture underlying data-generating processes, such as causal relationships, compositional abstractions, and symbolic components to support robust, transferable, and explainable reasoning. Ultimately, my goal is to contribute toward AI systems capable of human-like reasoning: adaptable to new contexts, and capable of abstract inference.

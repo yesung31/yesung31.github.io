@@ -11,16 +11,13 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Projects Participated
+      text: Here are the projects I have workend on outside of research.
       filters:
         folders:
-          - projects
+          - project
     design:
       view: article-grid
       fill_image: false
       columns: 3
-      show_date: false
-      show_read_time: false
-      show_read_more: false
 ---
