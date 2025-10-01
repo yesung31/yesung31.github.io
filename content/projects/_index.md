@@ -12,12 +12,14 @@ sections:
   - block: collection
     content:
       title: Projects Participated
-      text: Here are the projects I have workend on outside of research.
+      text: Here are the projects I have worked on outside of research.
       filters:
         folders:
-          - project
+          - projects
     design:
       view: article-grid
-      fill_image: false
-      columns: 3
+      columns: 2
+      show_date: false
+      show_read_time: false
+      show_read_more: false
 ---
