@@ -11,7 +11,7 @@ design:
 sections:
   - block: collection
     content:
-      title: Projects Participated
+      title: Personal Projects
       text: Here are the projects I have worked on outside of research.
       filters:
         folders:
