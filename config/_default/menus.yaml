@@ -25,3 +25,6 @@ main:
   # - name: Courses
   #   url: courses/
   #   weight: 40
+  - name: Recipes
+    url: https://yesung31.notion.site/Yesung-s-Recipes-27f8393b5d8280768997fab97a07eced
+    weight: 50
