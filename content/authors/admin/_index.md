@@ -49,7 +49,7 @@ profiles:
 interests:
   - Out-of-Distribution Generalization
   - Causal Representation Learning
-  - Unsupervised Learning
+  - Self-Supervised Learning
 
 education:
   # - area: PhD Artificial Intelligence
