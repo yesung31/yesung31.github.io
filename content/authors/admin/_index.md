@@ -84,6 +84,17 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
+  - position: Project Internship
+    company_name: TNO
+    company_url: "https://www.tno.nl/en/"
+    company_logo: ""
+    date_start: 2025-02-11
+    date_end: 2025-06-16
+    # summary: |2-
+    #   Responsibilities include:
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Undergrad Intern
     company_name: Visual AI Group @ KAIST
     company_url: "https://visualai.kaist.ac.kr"
