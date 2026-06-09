@@ -26,7 +26,7 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: "📚 My Fundamental Questions"
+      title: "What else?"
       subtitle: ""
       text: |-
         I would also love to talk about: Theory of Everything, Hard Problem of Consciousness, and Intelligence in general!
