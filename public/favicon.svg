@@ -1,5 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" rx="24" fill="#0f172a" />
-  <text x="50" y="65" font-family="system-ui, sans-serif" font-size="48" font-weight="700" fill="#38bdf8" text-anchor="middle">Y</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <style>
+    rect {
+      fill: #FFFCF8;
+    }
+  </style>
+  <!-- Top row: left & right cells (2 cells) -->
+  <rect x="0" y="0" width="32" height="32" />
+  <rect x="64" y="0" width="32" height="32" />
 
+  <!-- Middle row: left, center & right cells (3 cells) -->
+  <rect x="0" y="32" width="32" height="32" />
+  <rect x="32" y="32" width="32" height="32" />
+  <rect x="64" y="32" width="32" height="32" />
+
+  <!-- Bottom row: center stem cell (1 cell) -->
+  <rect x="32" y="64" width="32" height="32" />
+</svg>
