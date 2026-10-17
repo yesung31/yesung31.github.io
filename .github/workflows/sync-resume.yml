@@ -1,0 +1,77 @@
+name: Sync Resume from Overleaf
+
+on:
+  workflow_dispatch:
+    inputs:
+      tex_filename:
+        description: 'Main TeX file name (if using Overleaf Git)'
+        required: false
+        default: 'main.tex'
+  # Uncomment below to automatically sync weekly:
+  # schedule:
+  #   - cron: '0 6 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-resume:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout portfolio repository
+        uses: actions/checkout@v4
+
+      # Method 1: Direct PDF URL download (if secret OVERLEAF_PDF_URL is set)
+      - name: Download PDF directly (if URL secret provided)
+        id: download-pdf
+        if: "${{ secrets.OVERLEAF_PDF_URL != '' }}"
+        env:
+          OVERLEAF_PDF_URL: ${{ secrets.OVERLEAF_PDF_URL }}
+        run: |
+          echo "Downloading resume from OVERLEAF_PDF_URL..."
+          curl -L -f "$OVERLEAF_PDF_URL" -o public/resume.pdf
+          echo "downloaded=true" >> $GITHUB_OUTPUT
+
+      # Method 2: Clone from Overleaf Git bridge (if OVERLEAF_PROJECT_ID is set)
+      - name: Clone Overleaf Git repo
+        if: "${{ steps.download-pdf.outputs.downloaded != 'true' && secrets.OVERLEAF_PROJECT_ID != '' }}"
+        env:
+          OVERLEAF_PROJECT_ID: ${{ secrets.OVERLEAF_PROJECT_ID }}
+          OVERLEAF_EMAIL: ${{ secrets.OVERLEAF_EMAIL }}
+          OVERLEAF_TOKEN: ${{ secrets.OVERLEAF_TOKEN }}
+        run: |
+          echo "Cloning Overleaf project..."
+          git clone "https://${OVERLEAF_EMAIL}:${OVERLEAF_TOKEN}@git.overleaf.com/${OVERLEAF_PROJECT_ID}" /tmp/overleaf-resume
+
+      - name: Compile LaTeX to PDF
+        if: "${{ steps.download-pdf.outputs.downloaded != 'true' && secrets.OVERLEAF_PROJECT_ID != '' }}"
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: /tmp/overleaf-resume
+          root_file: ${{ github.event.inputs.tex_filename || 'main.tex' }}
+          compiler: pdflatex
+
+      - name: Copy compiled PDF to public/
+        if: "${{ steps.download-pdf.outputs.downloaded != 'true' && secrets.OVERLEAF_PROJECT_ID != '' }}"
+        run: |
+          # Find generated pdf and copy to public/resume.pdf
+          PDF_FILE=$(find /tmp/overleaf-resume -maxdepth 1 -name "*.pdf" | head -n 1)
+          if [ -n "$PDF_FILE" ]; then
+            cp "$PDF_FILE" public/resume.pdf
+            echo "Successfully updated public/resume.pdf from $PDF_FILE"
+          else
+            echo "Error: No PDF found after compilation!" && exit 1
+          fi
+
+      - name: Commit and push updated resume
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/resume.pdf
+          if git diff --staged --quiet; then
+            echo "No changes in resume.pdf"
+          else
+            git commit -m "Auto-sync resume from Overleaf"
+            git push
+          fi
+
