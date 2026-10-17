@@ -16,7 +16,7 @@ export const educationData: Education[] = [
     year: "2026 — Present",
     institution: "Eindhoven University of Technology (TU/e)",
     institutionUrl: "https://www.tue.nl/en/",
-    degree: "Ph.D. Candidate in Computer Science",
+    degree: "Ph.D. Candidate in Artificial Intelligence",
     advisor: "Assistant Professor, Dr. Devendra Dhami",
     advisorUrl: "https://sites.google.com/view/devendradhami",
     focus: "Learning Causal World Models",

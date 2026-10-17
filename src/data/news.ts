@@ -9,7 +9,7 @@ export const newsData: News[] = [
   {
     date: "Oct 2026",
     title: "Started Ph.D. @ TU/e",
-    description: "Started my Ph.D. in Computer Science at Eindhoven University of Technology, advised by Dr. Devendra Dhami.",
+    description: "Started my Ph.D. in Artificial Intelligence at Eindhoven University of Technology, advised by Dr. Devendra Dhami.",
     link: "https://www.tue.nl/en/",
   },
   {
