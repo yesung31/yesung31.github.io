@@ -96,8 +96,8 @@ export function ProfileSection({ aboutMe, darkMode, setDarkMode }: ProfileSectio
               href={aboutMe.cvUrl}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Download CV"
-              title="Download CV"
+              aria-label="View CV"
+              title="View CV"
               className="text-xs font-semibold tracking-wider hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors leading-none"
             >
               CV

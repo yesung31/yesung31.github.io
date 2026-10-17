@@ -11,6 +11,7 @@ import { ExperienceEntry } from './components/experience-entry'
 import { experienceData } from './data/experience'
 import { PortfolioEntry } from './components/portfolio-entry'
 import { portfolioData } from './data/portfolio'
+import { interestsData } from './data/interests'
 import { sectionOrder, Section } from './data/section-order'
 import { ChevronDown } from 'lucide-react'
 
@@ -122,7 +123,7 @@ export function App() {
                     publicationData.length > 0 && (
                       <section key={sectionName}>
                         <h2 className="font-serif text-l mb-10 tracking-wide uppercase text-zinc-900 dark:text-zinc-100">
-                          Publications
+                          Publications & Patents
                         </h2>
                         <div className="space-y-10">
                           {publicationData.map((publication, index) => (
@@ -159,11 +160,11 @@ export function App() {
                     <section key={sectionName} className="pt-2">
                       <button
                         onClick={() => setIsPersonalOpen(!isPersonalOpen)}
-                        className="w-full flex items-center justify-between text-left group cursor-pointer py-2 border-b border-zinc-200 dark:border-zinc-800"
+                        className="flex items-center gap-3 text-left group cursor-pointer py-2"
                         aria-expanded={isPersonalOpen}
                       >
                         <h2 className="font-serif text-l tracking-wide uppercase text-zinc-900 dark:text-zinc-100 group-hover:text-zinc-600 dark:group-hover:text-zinc-300 transition-colors">
-                          Personal & Creative
+                          Extra
                         </h2>
                         <span className="text-xs text-zinc-400 group-hover:text-zinc-700 dark:group-hover:text-zinc-200 transition-colors font-mono flex items-center gap-1">
                           <span>{isPersonalOpen ? 'Collapse' : 'Expand'}</span>
@@ -177,26 +178,35 @@ export function App() {
 
                       {isPersonalOpen && (
                         <div className="mt-8 space-y-12">
-                          {/* Big Questions & Creative Hobbies */}
-                          <div className="space-y-3">
-                            <h3 className="text-xs uppercase tracking-widest text-zinc-400 dark:text-zinc-500 font-medium font-mono">
-                              Pursuits & Interests
-                            </h3>
-                            <div className="text-sm text-zinc-600 dark:text-zinc-400 space-y-2 leading-relaxed">
-                              <p>
-                                <strong className="text-zinc-900 dark:text-zinc-100 font-medium font-serif">
-                                  Big Questions:
-                                </strong>{' '}
-                                Theory of Everything, Hard Problem of Consciousness, Nature of Intelligence.
-                              </p>
-                              <p>
-                                <strong className="text-zinc-900 dark:text-zinc-100 font-medium font-serif">
-                                  Creative Pursuits:
-                                </strong>{' '}
-                                Playing Guitar & Electric Bass, Designing Analog & Digital Audio Effect Pedals, World Traveling.
-                              </p>
+                          {interestsData.length > 0 && (
+                            <div className="space-y-3">
+                              <h3 className="text-xs uppercase tracking-widest text-zinc-400 dark:text-zinc-500 font-medium font-mono">
+                                Interests
+                              </h3>
+                              <div className="font-serif text-sm text-zinc-600 dark:text-zinc-400 space-y-2 leading-relaxed">
+                                {interestsData.map((interest, index) => {
+                                  const content = interest.items.join(', ')
+                                  const formatted = content
+                                    ? content.endsWith('.')
+                                      ? content
+                                      : `${content}.`
+                                    : ''
+                                  return (
+                                    <p key={index}>
+                                      <strong className="text-zinc-900 dark:text-zinc-100 font-semibold">
+                                        {interest.category}:
+                                      </strong>{' '}
+                                      <span
+                                        dangerouslySetInnerHTML={{
+                                          __html: formatted,
+                                        }}
+                                      />
+                                    </p>
+                                  )
+                                })}
+                              </div>
                             </div>
-                          </div>
+                          )}
 
                           {/* Personal Projects */}
                           {portfolioData.length > 0 && (

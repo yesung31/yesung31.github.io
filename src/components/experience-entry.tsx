@@ -20,9 +20,24 @@ export function ExperienceEntry({ experience }: { experience: Experience }) {
             experience.company
           )}
         </h3>
+        {experience.location && (
+          <p className="text-xs text-zinc-500 font-mono mt-0.5">{experience.location}</p>
+        )}
         {experience.advisor && (
           <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed italic mt-2">
-            Advisor: {experience.advisor}
+            Advisor:{' '}
+            {experience.advisorUrl ? (
+              <a
+                href={experience.advisorUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                {experience.advisor}
+              </a>
+            ) : (
+              experience.advisor
+            )}
           </p>
         )}
         {experience.manager && (
@@ -31,9 +46,16 @@ export function ExperienceEntry({ experience }: { experience: Experience }) {
           </p>
         )}
         {experience.description && (
-          <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed mt-2">
+          <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed mt-2 font-medium">
             {experience.description}
           </p>
+        )}
+        {experience.points && experience.points.length > 0 && (
+          <ul className="list-disc list-outside ml-4 mt-2 space-y-1 text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            {experience.points.map((point, index) => (
+              <li key={index}>{point}</li>
+            ))}
+          </ul>
         )}
       </div>
     </div>
