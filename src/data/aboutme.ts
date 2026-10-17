@@ -11,7 +11,6 @@ export interface AboutMe {
   twitterUsername?: string
   githubUsername?: string
   linkedinUsername?: string
-  secretDescription?: string
   altName?: string
   institutionUrl?: string
 }
@@ -28,6 +27,5 @@ export const aboutMe: AboutMe = {
   cvUrl: "https://yesung31.github.io/resume",
   githubUsername: "yesung31",
   linkedinUsername: "yesung-hwang-a4b4a0223",
-  secretDescription: "Built with Vite & React — Tovacinni template architecture.",
 }
 
