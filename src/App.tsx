@@ -183,7 +183,7 @@ export function App() {
                               <h3 className="text-xs uppercase tracking-widest text-zinc-400 dark:text-zinc-500 font-medium font-mono">
                                 Interests
                               </h3>
-                              <div className="font-serif text-sm text-zinc-600 dark:text-zinc-400 space-y-2 leading-relaxed">
+                              <div className="font-serif text-sm text-zinc-600 dark:text-zinc-400 space-y-2 leading-relaxed [&_a]:underline [&_a]:text-zinc-900 dark:[&_a]:text-zinc-100 [&_a:hover]:text-zinc-600 dark:[&_a:hover]:text-zinc-400">
                                 {interestsData.map((interest, index) => {
                                   const content = interest.items.join(', ')
                                   const formatted = content

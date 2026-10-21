@@ -20,5 +20,11 @@ export const interestsData: InterestCategory[] = [
       "Traveling",
     ],
   },
+  {
+    category: "Nice to Read",
+    items: [
+      "<a href=\"https://calteches.library.caltech.edu/51/2/CargoCult.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Cargo Cult Science</a> (Richard Feynman)",
+    ],
+  },
 ]
 
