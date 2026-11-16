@@ -17,7 +17,7 @@ export const publicationData: Publication[] = [
   //   conference: "M.Sc. Thesis / Research",
   //   title: "Learning Structured and Abstract Representation for Out-of-Distribution Generalization in AI",
   //   authors: "Yesung Hwang, Devendra Dhami",
-  //   paperUrl: "https://github.com/yesung31/resume/releases/latest/download/resume.pdf",
+  //   paperUrl: "https://github.com/yesung31/resume/releases/latest/download/cv_yesung.pdf",
   //   codeUrl: "https://github.com/yesung31",
   //   tldr: "Learning invariant causal mechanisms and abstract representations to improve robustness and generalization under severe domain and distribution shifts.",
   // },
