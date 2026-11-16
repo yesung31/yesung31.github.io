@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { execSync } from 'child_process'
+import { seoPlugin } from './vite-plugin-seo'
 
 const getCommitDate = () => {
   try {
@@ -15,6 +16,7 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
+    seoPlugin(),
     {
       name: 'live-git-date',
       configureServer(server) {
@@ -29,7 +31,7 @@ export default defineConfig({
     __LAST_COMMIT_DATE__: JSON.stringify(getCommitDate()),
   },
   server: {
-    host: true, // Listen on all network addresses (0.0.0.0) for local Wi-Fi network access
+    host: true,
     port: 5173,
   },
   base: '/',
